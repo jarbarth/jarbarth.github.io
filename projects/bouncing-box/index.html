@@ -47,7 +47,7 @@
             box.text(points)
 			
 			function update() {
-			position += speed = direction    // increment position by speed on every update
+			position += speed * direction    // increment position by speed on every update
 			console.log("new position: " + position);
 			if(position > boardWidth) {
             console.log("Right Wall Hit");
